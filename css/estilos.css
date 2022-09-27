@@ -87,7 +87,8 @@ h6{ font-family: 'Combo', cursive;
 /*descuentos*/
 .descuento,
 .productos,
-.servicios{
+.servicios,
+.nosotros{
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -101,7 +102,8 @@ h6{ font-family: 'Combo', cursive;
 }
 .titulo-des h2,
 .titulo-pro h2,
-.titulo-ser{
+.titulo-ser,
+.titulo-nos h2{
     font-size: 50px;
     color: magenta;
 }
@@ -153,7 +155,8 @@ h6{ font-family: 'Combo', cursive;
     height: auto;
 }
 /*servicios*/
-.con-servicios{
+.con-servicios,
+.con-nosotros{
     width: 100%;
     height: auto;
 }
@@ -181,7 +184,15 @@ h6{ font-family: 'Combo', cursive;
 .servicios-1 .con-texto p,
 .botones .con-texto ul,
 .servicios-2 .con-texto p,
-.botones .con-texto ul{
+.botones .con-texto u,
+.con-nosotros .con-texto p{
     font-size: 20px;
     color: rgb(69, 69, 69);
+}
+/*Nosotros*/
+.con-nosotros{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
 }
