@@ -1,0 +1,312 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Combo', cursive;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu .logo a img {
+    width: 80px;
+}
+
+.enlaces ul,
+.iconos ul {
+    list-style: none;
+    display: flex;
+}
+
+.enlaces ul li,
+.iconos ul li {
+    margin-right: 10px;
+}
+
+.enlaces ul li a,
+.iconos ul li i,
+.iconos ul li svg {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.iconos ul li i,
+.iconos ul li svg {
+    background-color: red;
+    padding: 5px 6px;
+    border-radius: 10px;
+}
+
+.iconos ul li i:hover,
+.iconos ul li svg:hover {
+    background-color: white;
+    color: red;
+}
+
+.enlaces ul li:hover {
+    border-bottom: 2px solid red;
+}
+
+
+/*imagen principal*/
+
+.principal {
+    background-image: url("../imagenes/principal.jpg");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.principal .con-texto h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.principal .con-texto p {
+    font-size: 25px;
+}
+
+.principal .con-texto a {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.principal .con-texto a:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.principal .con-texto {
+    height: 300px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+/*descuentos*/
+
+.descuento,
+.productos,
+.servicios,
+.nosotros,
+.contactos {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.descuento img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.titulo-des h2,
+.titulo-pro h2,
+.titulo-ser,
+.titulo-nos h2,
+.contacto .titulo-cont {
+    font-size: 50px;
+    color: magenta;
+    font-weight: bold;
+}
+
+
+/*productos*/
+
+.con-productos,
+.con-contactos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    width: 300px;
+    height: auto;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tarjeta .con-texto h3 {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    align-items: center;
+}
+
+.tarjeta .con-texto p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarjeta .botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta .botones span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tarjeta .botones a {
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*servicios*/
+
+.con-servicios,
+.con-nosotros {
+    width: 100%;
+    height: auto;
+}
+
+.servicios-1,
+.servicio-2 {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+}
+
+.servicio-1 img,
+.servicio-2 img {
+    width: 50%;
+}
+
+.servicios-1 .con-texto,
+.servicios-2 .con-texto {
+    width: 50%;
+}
+
+.servicios-1 .con-texto h3,
+.servicios-2 .con-texto h3,
+.con-nosotros .con-texto h3,
+.con-contacto .con-texto h3 {
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+.servicios-1 .con-texto p,
+.botones .con-texto ul,
+.servicios-2 .con-texto p,
+.botones .con-texto u,
+.con-nosotros .con-texto p,
+.con-contacto .con-texto p {
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    font-weight: bold;
+}
+
+
+/*Nosotros*/
+
+.con-nosotros,
+.con-contacto {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.con-nosotros iframe,
+.con-nosotros .con-texto {
+    width: 35%;
+}
+
+.con-nosotros {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*contactos*/
+
+.con-contacto img,
+.con-contacto .con-texto {
+    width: 38%;
+}
+
+.con-contacto .con-texto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-contacto .con-texto form input,
+.con-contacto .con-texto form textarea,
+.con-contacto .con-texto form button {
+    margin: 5px 0;
+}
+
+.con-contacto .con-texto form input {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.con-contacto .con-texto form textarea,
+.con-contacto .con-texto form button {
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.con-contacto .con-texto form button {
+    background-color: red;
+    color: white;
+}
+
+
+/*pie*/
+
+.pie {
+    width: 100%;
+    height: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
